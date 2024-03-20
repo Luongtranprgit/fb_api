@@ -5,7 +5,7 @@
         private Float product_price;
         private String product_currency;
 
-        public Product(String product_code, Float product_price, String product_currency) {
+        public Product(String product_code,Float product_price, String product_currency) {
             this.product_code = product_code;
             this.product_price = product_price;
             this.product_currency = product_currency;

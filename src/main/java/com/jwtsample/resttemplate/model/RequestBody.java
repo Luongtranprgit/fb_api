@@ -1,6 +1,7 @@
 package com.jwtsample.resttemplate.model;
 
 public class RequestBody {
+
     private String tid;
     private String event;
     private String inventory_type;

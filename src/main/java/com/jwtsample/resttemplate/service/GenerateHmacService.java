@@ -5,7 +5,7 @@ import javax.crypto.spec.SecretKeySpec;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 
-public class GenerateHmac {
+public class GenerateHmacService {
     private String carrier_id;
     private String timestamp;
 
@@ -54,6 +54,5 @@ public class GenerateHmac {
             return null;
         }
     }
-
 
 }
